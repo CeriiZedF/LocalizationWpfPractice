@@ -1,0 +1,14 @@
+﻿<Window x:Class="LocalizationWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LocalizationWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="400" Height="100">
+        <Button Name="b1" Margin="20,10,10,10" Width="100" Click="Button_Click" Tag="uk">Ukraine</Button>
+        <Button Name="b2" Margin="20,10,10,10" Width="100" Click="Button_Click" Tag="fr">French</Button>
+        <Button Name="b3" Margin="20,10,10,10" Width="100" Click="Button_Click" Tag="">English</Button>
+    </StackPanel>
+</Window>
